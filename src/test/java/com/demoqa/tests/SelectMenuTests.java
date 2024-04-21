@@ -16,6 +16,7 @@ public class SelectMenuTests extends TestBase{
 
     @Test
     public void selectOldStyleTest() {
+
         new SelectMenuPage(driver).selectOldStyle("Black");
     }
 
